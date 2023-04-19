@@ -11,16 +11,7 @@
         {
             background-color: aqua;
         }
-        h1
-        {
-            text-align: center;
-            color: black;
-            font-family: 'Courier New', Courier, monospace;
-            background-color: white;
-            font-size: 5.5vw;
-            border-radius: 80px;
-        }
-        img
+        .img1
         {
             max-width: 60%;
             min-width: 50%;
@@ -29,6 +20,15 @@
             margin-right: auto;
             display: block;
             border-radius: 16px;
+            border: 3px solid white;
+        }
+        img
+        {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            max-width: 60%;
+            min-width: 30%;
         }
         video
         {
@@ -38,14 +38,28 @@
             margin-right: auto;
             width: 47vw;
             height: 47vw;
+            float: left;
+            border-color: black;
+            border: 1px solid #ccc;
+            background: #eee;
+        }
+        h2
+        {
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 3vw;
         }
     </style>
 </head>
 <body>
-    <h1>Ekspres Makine</h1>
-    <img src="a2.jpg" alt="a1"><br>
-    <video controls autoplay width="320" height="250">
-        <source src="a3.mp4">
-    </video>
+    <img src="logo.png" alt="a1"><br>
+    <img src="a2.jpg" alt="a1" class="img1"><br>
+    <video src="a3.mp4" autoplay muted loop></video>
+    <video src="a4.mp4" autoplay muted loop></video>
+    <video src="a5.mp4" autoplay muted loop></video>
+    <video src="a6.mp4" autoplay muted loop></video>
+    <h2>TELEFON: +90 532 411 53 72</h2>
+    <h2>MAİL: cankaya-e@hotmail.com</h2>
+    <h2>ADRES: Maltepe Mahallesi Litros Yolu Sokak No 3NC15 Zeytinburnu İstanbul</h2>
 </body>
 </html>
