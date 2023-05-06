@@ -12,7 +12,7 @@ img
 }
 .img-thumbnail
 {
-    width: 40%;
+    width: 45%;
 }
 video
 {
@@ -20,7 +20,7 @@ video
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100px;
+    width: 60%;
     margin-bottom: 10px;
     border: 3px solid white;
 }
@@ -28,7 +28,7 @@ h1
 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 5vw;
+    font-size: 4vw;
     color: black;
     text-shadow: 2px 2px 4px grey;
 }
@@ -56,6 +56,7 @@ h2
     background-color: white;
     border-radius: 8px;
     border: 2px solid lightblue;
+    width: 80%;
 }
 .bg-1
 {
