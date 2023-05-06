@@ -8,11 +8,10 @@ img
     margin-right: auto;
     display: block;
     max-width: 60%;
-    min-width: 30%;
 }
 .img-thumbnail
 {
-    width: 45%;
+    width: 55%;
 }
 video
 {
