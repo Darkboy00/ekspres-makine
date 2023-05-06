@@ -1,0 +1,63 @@
+body 
+{
+    background-color: lightcoral;
+}
+img 
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 60%;
+    min-width: 30%;
+}
+.img-thumbnail
+{
+    width: 40%;
+}
+video
+{
+    border-radius: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    margin-bottom: 10px;
+    border: 3px solid white;
+}
+h1 
+{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5vw;
+    color: black;
+    text-shadow: 2px 2px 4px grey;
+}
+h2 
+{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3vw;
+    background-color: white;
+}
+.container-fluid
+{
+    padding-top: 5px;
+}
+.container-fluid-1
+{
+    background-color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-style: groove;
+    border-color: lightblue;
+}
+.container
+{
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid lightblue;
+}
+.bg-1
+{
+    background-color: white;
+}
