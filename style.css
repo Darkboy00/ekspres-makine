@@ -1,6 +1,7 @@
 body 
 {
     background-color: lightcoral;
+    font-family: "Audiowide", sans-serif;
 }
 img 
 {
@@ -13,6 +14,10 @@ img
 {
     width: 55%;
 }
+.img-thumbnail:hover
+{
+    animation: glow 0.5s infinite;
+}
 video
 {
     border-radius: 16px;
@@ -23,10 +28,13 @@ video
     margin-bottom: 10px;
     border: 3px solid white;
 }
+video:hover
+{
+    animation: glow2 0.5s infinite;
+}
 h1 
 {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
     font-size: 4vw;
     color: black;
     text-shadow: 2px 2px 4px grey;
@@ -34,7 +42,6 @@ h1
 h2 
 {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
     font-size: 3vw;
     background-color: white;
 }
@@ -50,6 +57,12 @@ h2
     border-style: groove;
     border-color: lightblue;
 }
+.container-fluid-2
+{
+    background-color: #F88379;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
 .container
 {
     background-color: white;
@@ -60,4 +73,18 @@ h2
 .bg-1
 {
     background-color: white;
+}
+@keyframes glow
+{
+    0%
+    {
+        box-shadow: 0px 0px 30px #D22B2B;
+    }
+}
+@keyframes glow2
+{
+    0%
+    {
+        box-shadow: 0px 0px 10px #D22B2B;
+    }
 }
