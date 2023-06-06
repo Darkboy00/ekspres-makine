@@ -1,6 +1,8 @@
 body 
 {
-    background-color: lightcoral;
+    background: linear-gradient(-45deg, #DC143C, #FAA0A0, #C21E56, #FFFFF0);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
     font-family: "Audiowide", sans-serif;
 }
 img 
@@ -41,9 +43,9 @@ h1
 }
 h2 
 {
+    color: black;
     text-align: center;
     font-size: 3vw;
-    background-color: white;
 }
 .container-fluid
 {
@@ -51,15 +53,19 @@ h2
 }
 .container-fluid-1
 {
-    background-color: white;
+    background: linear-gradient(-45deg, #FF2400, #F5F5DC, #AA336A, #F9F6EE);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
     padding-bottom: 5px;
     padding-top: 5px;
     border-style: groove;
-    border-color: lightblue;
+    border-color: #F9F6EE;
 }
 .container-fluid-2
 {
-    background-color: #F88379;
+    background: linear-gradient(-45deg, #D22B2B, #FAF9F6, #D70040, #FFFFFF);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
     padding-bottom: 5px;
     padding-top: 5px;
 }
@@ -87,4 +93,19 @@ h2
     {
         box-shadow: 0px 0px 10px #D22B2B;
     }
+}
+@keyframes gradient 
+{
+	0% 
+    {
+		background-position: 0% 50%;
+	}
+	50% 
+    {
+		background-position: 100% 50%;
+	}
+	100% 
+    {
+		background-position: 0% 50%;
+	}
 }
