@@ -109,6 +109,21 @@ h2
 		background-position: 0% 50%;
 	}
 }  
+@keyframes icon
+{
+	0% 
+    {
+        color: black;
+	}
+	50% 
+    {
+        color: red;
+	}
+	100% 
+    {
+        color: black;
+	}
+}
 .snowflake 
 {
     color: #fff;
